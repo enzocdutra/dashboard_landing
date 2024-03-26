@@ -1,0 +1,242 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body,html{
+    height: 100%;
+    font-family: "Oswald", sans-serif;
+}
+:root{
+    --primary-color-: #70587C;
+    --second-color-: #502F4C;
+    --third-color-: #C8B8DB;
+    --four-color-: #F9F4F5;
+    --five-color-: #000000;
+    --six-color-: #C9C9C9;
+    --spacements-: 0.5rem 1rem;
+}
+
+/* header*/
+
+header{
+    width: 100%;
+    height:30vh;
+    -webkit-box-shadow: 0px 9px 19px -2px rgba(0,0,0,0.13);
+    -moz-box-shadow: 0px 9px 19px -2px rgba(0,0,0,0.13);
+    box-shadow: 0px 9px 19px -2px rgba(0,0,0,0.13);
+}
+.mobile{
+    padding: 1.5rem 1.5rem;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+}
+.mobile button {
+    border: none;
+    background: none;
+    font-size: 1.5rem;
+    color: var(--primary-color-);
+}
+.mobile span{
+    color: var(--second-color-);
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+.profile{
+    border-radius: 1rem;
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    background-image: url('../assets/profile1.jpeg');
+    background-position: center;
+    background-size: cover;
+}
+
+.overlay{
+    display: none;
+    position: fixed;
+    line-height: 2rem;
+    top: 0;
+    left: 0;
+    width: 40%;
+    height: 100%;
+    background-color:#000000de;
+    color: var(--four-color-);
+    justify-content: flex-start;
+    align-content: flex-start;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    overflow-x: hidden;
+    transition: 0.3s ease-in-out;
+}
+
+.overlay button i{
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 1rem;
+    color: white;
+}
+
+.overlay ul li  {
+    padding: 0 1rem;
+    list-style: none;
+    
+}
+.overlay-content a{
+    text-decoration: none;
+}
+.overlay-content i{
+    color:#502F4C;
+    transition: 0.3s ease-in-out;
+}
+.overlay-content{
+    display: flex;
+    padding: 2.5rem 0;
+    gap: 1rem;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    align-content: center;
+}
+.overlay-content i:hover, .overlay-content i:focus{
+    color:#70587C;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+.search-bar{
+    display: flex;
+    justify-content: center;
+}
+.search-bar button{
+    display: flex;
+    align-items: center;
+    
+    padding: var(--spacements-);
+    font-size: 1rem;
+
+    height: 40px;
+    width: 300px;
+    border: none;
+    background-color: var(--four-color-);
+    color: var(--primary-color-);
+    border-radius: 30px;
+}
+.search-bar input[type=text]{
+    width: 100%;
+    height: 2rem;
+   border: none;
+   background-color: var(--four-color-);
+   color: var(--five-color-);
+   padding: 0 1rem;
+}
+/*main*/
+.container{
+    padding: 1rem;
+}
+
+.text{
+    gap: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    margin-bottom: 1rem;
+}
+.text a{
+    text-decoration: none;
+    color: black;
+    transition: 0.3s;
+}
+.text a:hover{
+    font-size: 1.1rem;
+    color: #727272;
+}
+.cards{
+    width: 270px;
+    height: 170px;
+    padding: 1rem;
+
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: flex-start;
+
+    border-radius: 1rem;
+
+    color: white;
+    background-color: #70587C;
+  
+    -webkit-box-shadow: 3px 21px 24px -11px rgba(0,0,0,0.54);
+    -moz-box-shadow: 3px 21px 24px -11px rgba(0,0,0,0.54);
+    box-shadow: 3px 21px 24px -11px rgba(0,0,0,0.54);
+    line-height: 1.7rem;
+}
+
+.group-1 h3 {
+    font-weight: 200;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+}
+
+.group-2{
+    font-size: 0.9rem;
+    font-weight: 200;
+    color: #ccc;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 5rem;
+}
+
+.group-3{
+    font-size: 0.9rem;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+    gap: 8rem;
+}
+
+.group-4{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+    gap: 3rem;
+}
+
+.group-4 i{
+    color: #ccc;
+    font-size: 1.5rem;
+}
+.group-4{
+    font-weight: 200;
+}
+
+.withdraw-content{
+    width: 300px;
+    height: 207px;
+}
+.withdraw-content ul{
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+    list-style-type: none;
+}
+.withdraw-content li i{
+    color: #70587C;
+    background: #000000;
+    padding: 0.5rem;
+    border-radius: 50%;
+}
+
+@media screen and (min-width: 768px) {
+    .mobile{
+        display: none;
+    }
+}
