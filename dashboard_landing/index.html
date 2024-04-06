@@ -26,12 +26,9 @@
         <button id="closeNav" onclick="closeNav()"><i class="fa-solid fa-xmark"></i></button>
                   <a href=""></a><i class="fa-solid fa-house"></i></a>
                   <a href=""></a><i class="fa-solid fa-money-bill-transfer"></i></a>
-                  <a href=""></a><i class="fa-solid fa-user"></i></a>
                   <a href=""></a><i class="fa-solid fa-money-bill-trend-up"></i></a>
                   <a href=""></a><i class="fa-solid fa-credit-card"></i></a>
                   <a href=""></a><i class="fa-solid fa-hand-holding-dollar"></i></a>
-                  <a href=""></a><i class="fa-solid fa-screwdriver-wrench"></i></a>
-                  <a href=""> <i class="fa-solid fa-lightbulb"></i></a>
                   <a href=""></a><i class="fa-solid fa-gear"></i> </a>
        
         </div><!--overview-content-->
@@ -40,11 +37,13 @@
      </div><!--overview-->
     
      <span>Overview</span>
-     <div class="profile"></div>
+     <div class="profile"><a href="profile.html"></a></div>
     </div><!--mobile-->
     
     <div class="search-bar">
-        <button><i class="fa-solid fa-magnifying-glass"></i> <input type="text" placeholder="Search for something"></button>
+        <button><i class="fa-solid fa-magnifying-glass" style="color: #718EBF;"></i> 
+            <input type="text" placeholder="Search for something">
+        </button>
     </div>
     
 
@@ -53,50 +52,160 @@
         <section class="container">
             <div class="text">
                 <span>Meus Cartões</span>
-                <span><a href="#">Olhar todos.</a></span>
             </div>
-
-            <div class="cards">
-                <div class="group-1">
-                    <h3>Balance</h3>
-                    <span>R$5,756</span>
-                </div>
-           
-            
-                <div class="group-2">
-                <span>CARD HOLDER </span>  
-                <span>VALID THRU</span>     
-                </div>
-
-                <div class="group-3">    
-                <span>NAME</span> 
-                   <span>**/**</span> 
-                </div>
-       
-                <div class="group-4">
-                    <span>3778 **** **** 1234</span>
-                    <i class="fa-regular fa-credit-card"></i>
-                </div>
-        
-
-            </div>
-
-            <br>
-
-            <div class="text">
-                <span><a href="#">Transições recentes.</a></span>
-            </div>
-            <div class="withdraw-content">
-                <nav>
-                    <ul>
-                      <li><i class="fa-solid fa-money-bill-transfer"></i></li>
-                       <li><i class="fa-brands fa-pix"></i></li>
-                        <li><i class="fa-brands fa-paypal"></i></li>
+            <div class="cards-content">
+                <div class="cards">
+                    <div class="group-1">
+                        <h3>Balance</h3>
+                        <span>R$5,756</span>
+                    </div>
                
-                    </ul>
-                </nav>
+                
+                    <div class="group-2">
+                    <span>CARD HOLDER </span>  
+                    <span>VALID THRU</span>     
+                    </div>
+    
+                    <div class="group-3">    
+                    <span>NAME</span> 
+                       <span>**/**</span> 
+                    </div>
+           
+                    <div class="group-4">
+                        <span>3778 **** **** 1234</span>
+                        <i class="fa-regular fa-credit-card"></i>
+                    </div>
+            
+    
+                </div>
+    
+                
+                <div class="cards">
+                    
+                    <button><i class="fa-solid fa-plus"></i></button>
+                    Adicionar novo cartão
+
+                </div>
+            </div>
+           
+<br>
+            <div class="text">
+                <span>Transições recentes</span>
+
+            </div>
+            <div class="withdraw">
+               
+            <div class="withdraw-content">
+                    <a href=""><i class="fa-solid fa-credit-card"></i></a>
+                    <div class="info">
+                        <nav>
+                            <ul>
+                                <li>Card</li>
+                                <li><span>Gastos</span></li>
+                            </ul>
+                        </nav>
+                    
+                    </div>
+                    <div class="value">-R$ 850,00</div> 
+
+                </div>
+                  
+                <div class="withdraw-content">
+                    <a href=""><i class="fa-brands fa-pix"></i></a> 
+                    <div class="info">
+                        <nav>
+                            <ul>
+                                <li>Transferência Pix</li>
+                                <li><span>Renda</span></li>
+                            </ul>
+                        </nav>
+                    
+                    </div>
+                    <div class="value"><span>+R$ 50,00</span></div>
+                </div>
+
+            <div class="withdraw-content">
+                <a href=""><i class="fa-brands fa-paypal"></i></a>  
+                <div class="info">
+                    <nav>
+                        <ul>
+                            <li>Recebimento via PayPal</li>
+                            <li><span>Renda</span></li>
+                        </ul>
+                    </nav>
+                
+                </div>
+                <div class="value"><span>+R$ 350,00</span></div>
             </div>
 
+           <!--<div class="text">
+                <span>Atividade Semanal</span>
+                <p>inserir tabela de estatisticas.</p>
+            </div>
+        -->
+      <div class="text">
+        <span>Transferência Rapida</span>
+      </div>
+      <section class="quick-content">
+
+        <div class="profile-content">
+            <div class="img">
+            
+            </div>
+            <div class="user-info">
+             <div class="info-profile">
+
+                <span>Luiza Moura</span>
+                <p>CEO</p>
+
+             </div>
+            </div>
+        </div>
+
+        <div class="profile-content">
+            <div class="img">
+                <img src="assets/transition-profile (3).jpg" style="width: 50px;height: 50px; border-radius: 50%;">
+            </div>
+            <div class="user-info">
+                <div class="info-profile">
+
+                    <span> Workman</span>
+                    <p>Designer</p> 
+
+                </div>
+            </div>
+        </div>
+
+        <div class="profile-content">
+            <div class="img">
+                <img src="assets/transition-profile (2).jpg" style="width: 50px;height: 50px; border-radius: 50%;">
+            </div>
+            <div class="user-info">
+                <div class="info-profile">
+
+                    <span> Randy Press</span>
+                    <p>Director</p> 
+
+                </div>
+            </div>
+        
+        </div>
+        <button><i class="fa-solid fa-arrow-right"></i></button>
+    </section>
+        <div class="send-value">
+            <p>Insira valor</p>
+            <div class="send-value-content">
+                <input type="text">
+                <button>
+                 <span>enviar<i class="fa-solid fa-paper-plane"></i></span>
+                </button>
+             
+                
+            </div>
+        </div>
+     
+                
+        </div>
         </section>
     </main>
     <footer>
