@@ -1,0 +1,205 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet"
+        />
+
+        <link rel="stylesheet" href="assets/css/style.css" />
+        <script src="assets/js/script.js" defer></script>
+        <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous"
+        referrerpolicy="no-referrer"
+        />
+        <title>Dashboard</title>
+    </head>
+    <body>
+        <main class="container">
+
+            <section class="header_mobile">
+                <header>
+                    <nav class="mobile__content">
+                        <button class="menu"><i class="fa-solid fa-bars"></i></button>
+                        <aside class="navbar hide">
+                        <nav class="navbar-content">
+                            <a class="closeMenu"><i class="fa-solid fa-xmark"></i></a>
+                            <span><i class="fa-solid fa-house"></i> Home</span>
+                            <span
+                            ><i class="fa-solid fa-money-bill-transfer"></i>
+                            Transições</span
+                            >
+                            <span><i class="fa-solid fa-user"></i> Conta</span>
+                            <span
+                            ><i class="fa-solid fa-chart-simple"></i> Investimento</span
+                            >
+                            <span><i class="fa-solid fa-credit-card"></i> Cartões</span>
+                            <span
+                            ><i class="fa-solid fa-hand-holding-dollar"></i>
+                            Emprestimo</span
+                            >
+                            <span
+                            ><i class="fa-solid fa-screwdriver-wrench"></i> Serviços</span
+                            >
+                            <span><i class="fa-solid fa-gear"></i> Configurações</span>
+                        </nav>
+                        </aside>
+                        <span>money <i class="fa-solid fa-tree"></i> trees</span>
+                        <div class="profile">
+                        <button></button>
+                        </div>
+                    </nav>
+                    <div class="search_bar">
+                        <div class="search_content">
+                        <i class="fa-solid fa-magnifying-glass lp_1"></i>
+                        <input
+                            type="text"
+                            class="search_text"
+                            placeholder="Pesquisar..."
+                        />
+                        </div>
+                    </div>
+                </header>
+            
+            </section>
+
+
+            <section class="body__container">
+                <aside class="sidebar">
+                    <header>
+                        <a class="logo">money <i class="fa-solid fa-tree"></i> trees</a>
+                    </header>
+                    <nav class="sidebar-content">
+                    <span><i class="fa-solid fa-house"></i> Home</span>
+                    <span
+                        ><i class="fa-solid fa-money-bill-transfer"></i>
+                        Transições</span
+                    >
+                    <span><i class="fa-solid fa-user"></i> Conta</span>
+                    <span><i class="fa-solid fa-chart-simple"></i> Investimento</span>
+                    <span><i class="fa-solid fa-credit-card"></i> Cartões</span>
+                    <span
+                        ><i class="fa-solid fa-hand-holding-dollar"></i>
+                        Emprestimo</span
+                    >
+                    <span
+                        ><i class="fa-solid fa-screwdriver-wrench"></i> Serviços</span
+                    >
+                    <span><i class="fa-solid fa-gear"></i> Configurações</span>
+                    </nav>
+                </aside>
+
+                <section class="header_desktop">
+                    <header class="header_desktop">
+                        <nav>
+                            <span>     
+                                <div class="search_bar">
+                                <div class="search_content">
+                                <i class="fa-solid fa-magnifying-glass lp_1"></i>
+                                <input
+                                    type="text"
+                                    class="search_text"
+                                    placeholder="Pesquisar..."
+                                />
+                                </div>
+                            </div></span>
+                            <div class="btns_header">
+                                <span><i class="fa-solid fa-gear"></i> </span>
+                                <span><i class="fa-solid fa-bell"></i></span>
+                            </div>
+                            
+                            <span><div class="profile"></div></span>
+                        </nav>
+                        
+                    </header>
+                </div>
+                </section>
+                <section class="container__contents">
+                    <section class="card__container">
+                        <div class="title">
+                            <p>Meus Cartões</p>
+                            <span>Ver todos.</span>
+                        </div>
+                        <!--card-1-->
+                        <div class="card__box">
+                            <div class="card__content">
+                                <div class="card__header">
+                                    <nav>
+                                        <span>Balance</span>
+                                        <p>R$ 5,756</p>
+                                    </nav>
+                                    <i class="fa-brands fa-cc-visa"></i>
+                                </div>
+                                <div class="card__info">
+                                    <nav class="card__holder">
+                                        <span>titular do cartão</span>
+                                        <p>Enzo Campão dutra</p>
+                                    </nav>
+                                    <nav class="card__valid">
+                                        <span>Validade</span>
+                                        <p>12/2028</p>
+                                    </nav>
+                                </div>
+                                    <div class="card__serie">
+                                        <span>3778 **** **** 1234</span>
+                                    </div>
+                            </div>
+                            <!--new-card-->
+                            <div class="card__content">
+                                <div class="new_card">
+                                    <a href=""><button><i class="fa-solid fa-plus"></i> Adicionar novo cartão</button></a>
+                                </div>
+                            </div>
+                        </div>
+                
+    
+                    </section>
+    
+                    <section class="transition__container">
+                        <div class="title">
+                            <span>Minhas Transferências</span>
+                        </div>
+                        <div class="transition__box">
+                            <nav class="icons__transition">
+                                <span><i class="fa-solid fa-credit-card"></i></span>
+                                <span><i class="fa-brands fa-paypal"></i></span>
+                                <span><i class="fa-solid fa-dollar-sign"></i></span>
+                            </nav>
+                            <div class="text__transition">
+                                <nav>
+                                    <span>Conta de luz</span>
+                                    <p>28 January 2021</p>
+                                </nav>
+                                <nav>
+                                    <span>Deposito Paypal</span>
+                                    <p>25 January 2021</p>
+                                </nav>
+                                <nav>
+                                    <span>Pix recebido</span>
+                                    <p>21 January 2021</p>
+                                </nav>
+                                
+                            </div>
+                            <div class="speding">
+                                <nav>
+                                    <span>-$850</span>
+                                    <span>+$2,500</span>
+                                    <span>+$5,400</span>
+                                </nav>
+                            </div>
+                        </div>
+                    </section>
+                </section>
+                
+            </section>
+        </main>
+    </body>
+    </html>
